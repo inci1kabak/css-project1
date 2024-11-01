@@ -1,0 +1,41 @@
+div{
+
+    text-align: center;
+
+
+}
+
+.list-container {
+    display: flex;
+    justify-content: center; /* Listenin kapsayıcıda ortalanmasını sağlar */
+  }
+  
+  ul {
+    list-style: disc inside; /* Noktaların metinle birlikte ortalanmasını sağlar */
+    padding: 0;
+    text-align: left; /* Metni sola hizalar */
+  }
+  
+  li {
+    text-align: center; /* Her öğe içinde metni ortalar */
+    margin: 5px 0; /* Her öğe arasında boşluk bırakır */
+  }
+
+  img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* Resmi kapsayıcıya sığdırır, gerekirse kırpar */
+  }
+  
+  .intro{
+    color:blue;
+}
+
+
+.centre{
+    color:blue;
+}
+
+.col{
+    color:cadetblue;
+}
